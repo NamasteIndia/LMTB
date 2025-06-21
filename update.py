@@ -59,7 +59,7 @@ if UPGRADE_PACKAGES.lower() == 'true':
 
 UPSTREAM_REPO = environ.get('UPSTREAM_REPO', '')
 if len(UPSTREAM_REPO) == 0:
-    UPSTREAM_REPO = "https://github.com/HarixTGX/LMTB"
+    UPSTREAM_REPO = "https://github.com/NamasteIndia/LMTB"
 
 UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', '')
 if len(UPSTREAM_BRANCH) == 0:
